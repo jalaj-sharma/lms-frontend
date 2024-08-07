@@ -21,6 +21,28 @@
 ''''
 
 4. run the server
+
 ''''
     npm run dev
+''''
+
+
+
+### Setup installation instruction for tailwind
+
+[Tailwind official instruction doc](https://tailwindcss.com/docs/installation)
+
+''''
+
+    1. npm install -D tailwindcss
+
+    2. npx tailwindcss init
+
+    3. add file extensions to tailwind config file in the contents properly
+        '''
+            "./src/**/*.{html,js,jsx,ts,tsx}"
+        '''
+
+    4. add the tailwind directives in 'index.css' file
+
 ''''
