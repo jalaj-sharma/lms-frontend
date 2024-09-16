@@ -34,13 +34,14 @@
 
 ''''
 
-    1. npm install -D tailwindcss
+    1. npm install -D tailwindcss postcss autoprefixer
 
     2. npx tailwindcss init
 
     3. add file extensions to tailwind config file in the contents properly
         '''
-            "./src/**/*.{html,js,jsx,ts,tsx}"
+              content: ["./index.html","./src/**/*.{js,ts,jsx,tsx}",]
+
         '''
 
     4. add the tailwind directives in 'index.css' file
