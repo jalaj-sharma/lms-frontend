@@ -11,7 +11,7 @@ import Store from "./redux/Store.js";
 ReactDOM.createRoot(document.getElementById("root"))
 .render(
     <Provider store={Store}>
-        <BrowserRouter>
+        <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
             <Toaster />
             <App />
         </BrowserRouter>
